@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = 'ExcelJET'
+version = '0.0.1'
+description = 'Journal Entry by VBA and Python'
+readme = "README.md"
+authors = [
+    {name ="Park", email="kinphw@naver.com"},
+]
+
+#Except Built-in Module
+dependencies = [
+]
